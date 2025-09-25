@@ -1,42 +1,16 @@
-# Interactive Job Board Platform
+# React + Vite
 
-An interactive platform for exploring, filtering, and applying for job postings.  
-This project is part of the **ProDev Frontend Program** and demonstrates real-world application development with modern front-end tools.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Project Goals
-- Fetch job postings dynamically from an API
-- Implement advanced filtering (Category, Location, Experience Level)
-- Build a responsive, accessible, and user-friendly design
-- Include interactive job application forms
+Currently, two official plugins are available:
 
-## Technologies Used
-- **React / Vite** – Frontend framework
-- **Context API** – State management
-- **Tailwind CSS** – Responsive styling
-- **API Integration** – For dynamic job postings
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Key Features
-- API Data Integration with loading & error states  
-- Filtering by Category, Location, and Experience Level  
-- Responsive & Accessible UI (desktop, tablet, mobile)  
-- Job Application Forms with input validation  
+## React Compiler
 
-## Implementation Process
-- `feat: initialize React project`
-- `feat: integrate job API for fetching postings`
-- `feat: implement filtering by category and location`
-- `style: design responsive job card components`
-- `fix: resolve layout issues in mobile view`
-- `docs: add README with project details`
+The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Deployment
-- Will be deployed on **Vercel** once ready.
+## Expanding the ESLint configuration
 
-## Timeline
-- Duration: **2 weeks**
-- Status: In Progress 
-
-## Author
-- Caleb Wafula
-- [LinkedIn Profile](#) | [Portfolio](#)
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
