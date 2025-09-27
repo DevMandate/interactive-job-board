@@ -9,7 +9,7 @@ const AppLayout = () => {
         <Header />
         <Outlet />
       </main>
-      <div className="p-10 text-center bg-gray-600 mt-10">Made by DevManndate - Caleb Murambi</div>
+      <div className="p-10 text-center bg-gray-600 mt-10">Made by DevMandate - Caleb Murambi</div>
     </div>
   );
 };
