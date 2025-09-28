@@ -20,6 +20,16 @@ const buttonVariants = cva(
           "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
         blue:
           "bg-blue-500 hover:bg-blue-600",
+          indigo:
+          "bg-indigo-600 text-white hover:bg-indigo-700",
+        emerald:
+          "bg-emerald-600 text-white hover:bg-emerald-700",
+        violet:
+          "bg-violet-600 text-white hover:bg-violet-700",
+        slate:
+          "bg-slate-700 text-white hover:bg-slate-800",
+        amber:
+          "bg-amber-500 text-white hover:bg-amber-600",
         link: "text-primary underline-offset-4 hover:underline",
       },
       size: {

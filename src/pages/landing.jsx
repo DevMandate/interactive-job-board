@@ -6,6 +6,7 @@ import companies from '../data/companies.json'
 import faqs from "../data/faq.json";
 import Autoplay from "embla-carousel-autoplay";
 import { Card, CardContent, CardHeader, CardTitle} from '../components/ui/card'
+import { Search, Users } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
@@ -17,22 +18,28 @@ const LandingPage = () => {
   return (
     <main className='flex flex-col gap-10 sm:gap-20 py-10 sm:py-20'>
       <section className='text-center'>
-        <h1 className='flex flex-col items-center justify-center gradient-title text-4xl font-extrabold sm:text-6xl lg:text-8xl'>Find Your Dream Job{""} 
-          <span className='flex items-center gap-2 sm:gap-6'>& get{""} <img src="/logo.png" alt="Hired Image" className='h-14 sm:h-24 lg:h-32 tracking-tighter py-4'/> </span>
+        <h1 className='flex flex-col items-center justify-center gradient-title text-4xl font-extrabold sm:text-6xl lg:text-8xl'>Connecting Talents with Opportunities{""} 
+          <span className='flex items-center gap-2 sm:gap-6'><img src="/logo.png" alt="Hired Image" className='h-14 sm:h-24 lg:h-32 tracking-tighter py-4'/> </span>
         </h1>
-        <p className='text-grey-300 sm:mt-4 text-xs sm:text-xl'>Explore Thousands of Job Listings and Find the perfect Candidate for your Job Opportunities</p>
+        <p className='text-grey-300 sm:mt-4 text-xs sm:text-xl'>One platform, endless opportunities. Whether you’re hiring or job hunting.</p>
       </section>
-      <div className='flex gap-6 justify-center'>
-        {/* buttons */}
-        <Link to="/jobs">
-          <Button variant="blue" size="xl">Find Jobs</Button>
-        </Link>
-        <Link to="/post-job">
-          <Button variant="destructive" size="xl">Post a Job</Button>
-        </Link>
 
-        
-      </div>
+      <section>
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
+          <Link to="/jobs" className="w-full sm:w-auto">
+            <Button variant="emerald" size="xl" className="w-full sm:w-auto">
+              <Search className="w-5 h-5" /> Explore Opportunities
+            </Button>
+          </Link>
+          <Link to="/post-job" className="w-full sm:w-auto">
+            <Button variant="indigo" size="xl" className="w-full sm:w-auto">
+              <Users className="w-5 h-5" /> Hire Talent
+            </Button>
+          </Link>
+        </div>
+      </section>
+
+      
 
       {/* carousel */}
       <Carousel
@@ -56,7 +63,6 @@ const LandingPage = () => {
         </CarouselContent>
       </Carousel>
 
-
     {/* banner */}
     <img src="/banner.png" alt="" className='w-full'/>
     
@@ -67,7 +73,7 @@ const LandingPage = () => {
             <CardTitle className="font-bold">For Job Seekers</CardTitle>
           </CardHeader>
           <CardContent>
-            Search and apply for jobs, track applications, and more.
+            Easily search and apply for roles while keeping track of every application to stay in control of your career journey. Our platform empowers you to highlight your skills, connect with employers who value your talent, and uncover opportunities that truly match your aspirations.
           </CardContent>
         </Card>
         <Card>
@@ -75,7 +81,7 @@ const LandingPage = () => {
             <CardTitle className="font-bold">For Employers</CardTitle>
           </CardHeader>
           <CardContent>
-            Post jobs, manage applications, and find the best candidates.
+            Post job openings quickly, manage applications seamlessly, and identify the best candidates for your roles. From attracting top talent to building high-performing teams, our tools simplify your hiring process and empower you to make smarter decisions. 
           </CardContent>
         </Card>
       </section>

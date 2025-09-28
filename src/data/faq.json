@@ -1,26 +1,38 @@
 [
   {
-    "question": "What is Hirrd?",
-    "answer": "Hirrd is a Job Portal Application allows companies to post job listings and users to search and apply for jobs. It provides features for both job seekers and employers, with user-friendly interfaces and secure authentication."
+    "question": "What is Interactive Job Board?",
+    "answer": "Interactive Job Board is a dynamic platform designed to bridge the gap between employers and job seekers. It provides companies with simple tools to publish openings while helping professionals discover opportunities that match their career goals."
   },
   {
-    "question": "How do I post a job?",
-    "answer": "As an employer, you can post a job by navigating to the 'Post Job' section after logging in. Fill in the job details and submit the form to create a new job listing."
+    "question": "How do employers share a job opening?",
+    "answer": "Once logged in, employers can head to the 'Post a Job' page, fill in the required details about the position, and publish it instantly for candidates to view."
   },
   {
-    "question": "How can I search for jobs?",
-    "answer": "Job seekers can search for jobs by keywords, location, category, and other filters using the search bar on the homepage or the dedicated job search page."
+    "question": "What options do job seekers have to find opportunities?",
+    "answer": "Candidates can explore openings by browsing categories, applying search filters such as industry, skills, or location, and using the main search bar to quickly pinpoint relevant roles."
   },
   {
-    "question": "How do I apply for a job?",
-    "answer": "To apply for a job, click on the job listing and follow the application instructions provided. You may need to upload your resume and provide additional information."
+    "question": "What steps are involved in applying for a job?",
+    "answer": "To apply, select a job listing and follow the outlined process. This may include submitting a resume, answering a few screening questions, or providing additional information requested by the employer."
   },
   {
-    "question": "Can I save jobs to apply later?",
-    "answer": "Yes, you can save job listings by clicking the 'Save Job' button on the job listing. Saved jobs can be accessed from your profile under the 'Saved Jobs' section."
+    "question": "Is it possible to bookmark jobs for later?",
+    "answer": "Absolutely. If you come across a role you’re interested in but not ready to apply for, simply save it to your profile. You can revisit your saved jobs anytime under the 'Saved Jobs' section."
   },
   {
-    "question": "How do I track my job applications?",
-    "answer": "Job seekers can track the status of their applications from the 'Applications' section in their profile. This section provides updates on the progress of each application."
+    "question": "How can I follow up on my applications?",
+    "answer": "All submitted applications are tracked within your profile. The 'My Applications' dashboard allows you to view the status of each submission and stay updated throughout the hiring process."
+  },
+  {
+    "question": "Do I need an account to use Interactive Job Board?",
+    "answer": "You can browse available opportunities without an account, but creating a profile unlocks additional features such as saving jobs, applying directly, and receiving personalized recommendations."
+  },
+  {
+    "question": "Can I set up job alerts?",
+    "answer": "Yes. Job seekers can create custom alerts based on their preferred role, industry, or location. The platform will notify you whenever a matching opportunity is posted."
+  },
+  {
+    "question": "Is my information secure on Interactive Job Board?",
+    "answer": "We prioritize the security of our users. All personal data is encrypted, and your information is only shared with employers when you apply for a role. You remain in control of what you share."
   }
 ]
