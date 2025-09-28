@@ -13,7 +13,7 @@ export async function getCompanies(token) {
   return data;
 }
 
-// Add Company
+// Add Company Logic
 export async function addNewCompany(token, _, companyData) {
   const supabase = await supabaseClient(token);
 
